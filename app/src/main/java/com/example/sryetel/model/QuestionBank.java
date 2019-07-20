@@ -21,7 +21,7 @@ public class QuestionBank {
     public Question getQuestion() {
         Question question = mQuestionList.get(mQuestionIndex);
         mQuestionIndex ++;
-        if (mQuestionIndex > mQuestionList.size()) {
+        if (mQuestionIndex >= mQuestionList.size()) {
             mQuestionIndex = 0;
             Collections.shuffle(mQuestionList);
         }

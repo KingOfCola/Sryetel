@@ -1,10 +1,9 @@
 <resources>
     <string name="app_name">Sryetel</string>
-    <string name="loginTitleText">Enter your name</string>
-    <string name="nameEditHint">Please enter your name</string>
-    <string name="validationButtonText">Press me!</string>
-    <string name="messageEditHint">Please enter your message</string>
-    <string name="mainAnswerFiller"> </string>
     <string name="questionLabel">Question ?</string>
     <string name="answerLabel">Answer</string>
+    <string name="loginTitleText">Please enter your name and description</string>
+    <string name="nameEditHint">Please enter a name</string>
+    <string name="messageEditHint">Please enter a description</string>
+    <string name="validationButtonText">Validate</string>
 </resources>
